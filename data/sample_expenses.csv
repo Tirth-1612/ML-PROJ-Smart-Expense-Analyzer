@@ -1,0 +1,374 @@
+date,description,category,amount,payment_method,notes
+2025-11-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2025-11-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2025-11-05,Bangalore Metro smart card recharge,Transportation,386.35,UPI,Sample discretionary spend
+2025-11-07,Ola auto ride back home,Transportation,162.23,UPI,Sample discretionary spend
+2025-11-08,Bescom Electricity Bill payment,Utilities & Bills,1633.66,UPI,Monthly power bill
+2025-11-08,Doctor routine dental checkup,Health & Fitness,900.91,UPI,Sample discretionary spend
+2025-11-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2025-11-13,Barbeque Nation team weekend buffet,Food & Dining,2189.25,Credit Card,Sample discretionary spend
+2025-11-15,IGL Piped Natural Gas bill,Utilities & Bills,626.75,UPI,Gas connection bill
+2025-11-15,Starbucks Cold Brew coffee,Food & Dining,499.1,UPI,Sample discretionary spend
+2025-11-15,Uber cab ride to office,Transportation,270.75,Credit Card,Sample discretionary spend
+2025-11-15,HPCL Petrol vehicle fuel refuel,Transportation,1991.33,Credit Card,Sample discretionary spend
+2025-11-16,Blinkit instant grocery delivery,Groceries,325.66,UPI,Sample discretionary spend
+2025-11-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2025-11-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2025-11-20,Starbucks Cold Brew coffee,Food & Dining,451.42,UPI,Sample discretionary spend
+2025-11-21,Local Kirana store fruits and vegetables,Groceries,257.73,UPI,Sample discretionary spend
+2025-11-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2025-11-23,Swiggy food delivery - Biryani bowl,Food & Dining,383.42,UPI,Sample discretionary spend
+2025-11-23,D-Mart weekend bulk home supplies,Groceries,4410.7,Credit Card,Sample discretionary spend
+2025-11-24,D-Mart weekend bulk home supplies,Groceries,4549.59,Credit Card,Sample discretionary spend
+2025-11-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2025-11-26,Zara casual jacket purchase,Shopping,6197.35,Credit Card,Sample discretionary spend
+2025-11-27,Dominos Pepperoni Pizza order,Food & Dining,556.82,UPI,Sample discretionary spend
+2025-11-30,Blinkit instant grocery delivery,Groceries,685.35,UPI,Sample discretionary spend
+2025-11-30,Zomato dinner delivery,Food & Dining,688.03,UPI,Sample discretionary spend
+2025-11-30,Fastag highway toll auto deduction,Transportation,140.83,UPI,Sample discretionary spend
+2025-12-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2025-12-01,Barbeque Nation team weekend buffet,Food & Dining,1903.18,Credit Card,Sample discretionary spend
+2025-12-02,Uber cab ride to office,Transportation,376.62,UPI,Sample discretionary spend
+2025-12-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2025-12-06,Myntra formal shirts and casual trousers,Shopping,1563.11,Credit Card,Sample discretionary spend
+2025-12-06,Zepto quick dairy and bread,Groceries,404.98,UPI,Sample discretionary spend
+2025-12-07,Fastag highway toll auto deduction,Transportation,181.88,UPI,Sample discretionary spend
+2025-12-08,Bescom Electricity Bill payment,Utilities & Bills,1415.02,UPI,Monthly power bill
+2025-12-08,Amazon essentials - Ergonomic mouse & pad,Shopping,905.79,Credit Card,Sample discretionary spend
+2025-12-09,HPCL Petrol vehicle fuel refuel,Transportation,1894.14,Debit Card,Sample discretionary spend
+2025-12-11,Amazon essentials - Ergonomic mouse & pad,Shopping,1001.81,Credit Card,Sample discretionary spend
+2025-12-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2025-12-14,Doctor routine dental checkup,Health & Fitness,1140.19,UPI,Sample discretionary spend
+2025-12-14,Blinkit instant grocery delivery,Groceries,601.64,UPI,Sample discretionary spend
+2025-12-14,Blinkit instant grocery delivery,Groceries,282.78,UPI,Sample discretionary spend
+2025-12-15,IGL Piped Natural Gas bill,Utilities & Bills,680.27,UPI,Gas connection bill
+2025-12-17,Ola auto ride back home,Transportation,177.83,UPI,Sample discretionary spend
+2025-12-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2025-12-18,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,1294.09,Credit Card,Sample discretionary spend
+2025-12-18,Zara casual jacket purchase,Shopping,4067.23,Credit Card,Sample discretionary spend
+2025-12-18,Steam gaming purchase,Entertainment & Subscriptions,1924.65,Credit Card,Sample discretionary spend
+2025-12-18,BigBasket monthly kitchen staples,Groceries,2331.83,Credit Card,Sample discretionary spend
+2025-12-18,Blinkit instant grocery delivery,Groceries,745.9,UPI,Sample discretionary spend
+2025-12-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2025-12-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2025-12-22,Steam gaming purchase,Entertainment & Subscriptions,750.69,Credit Card,Sample discretionary spend
+2025-12-22,Bangalore Metro smart card recharge,Transportation,229.91,UPI,Sample discretionary spend
+2025-12-23,Tata 1mg multivitamins & omega 3,Health & Fitness,1267.98,Credit Card,Sample discretionary spend
+2025-12-23,Swiggy food delivery - Biryani bowl,Food & Dining,479.63,Credit Card,Sample discretionary spend
+2025-12-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2025-12-25,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,997.6,Credit Card,Sample discretionary spend
+2025-12-27,Lunch with colleagues at Dhaba,Food & Dining,920.58,UPI,Sample discretionary spend
+2025-12-28,Chai Point evening tea and samosa,Food & Dining,212.31,UPI,Sample discretionary spend
+2026-01-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-01-02,Bangalore Metro smart card recharge,Transportation,240.0,UPI,Sample discretionary spend
+2026-01-02,Swiggy food delivery - Biryani bowl,Food & Dining,639.26,UPI,Sample discretionary spend
+2026-01-04,Zara casual jacket purchase,Shopping,5713.31,Credit Card,Sample discretionary spend
+2026-01-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-01-07,Local Kirana store fruits and vegetables,Groceries,505.92,UPI,Sample discretionary spend
+2026-01-08,Bescom Electricity Bill payment,Utilities & Bills,1691.88,UPI,Monthly power bill
+2026-01-08,Zepto quick dairy and bread,Groceries,188.09,UPI,Sample discretionary spend
+2026-01-10,Lunch with colleagues at Dhaba,Food & Dining,623.45,UPI,Sample discretionary spend
+2026-01-11,Ola auto ride back home,Transportation,98.35,Cash,Sample discretionary spend
+2026-01-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-01-13,Zepto quick dairy and bread,Groceries,196.08,UPI,Sample discretionary spend
+2026-01-15,IGL Piped Natural Gas bill,Utilities & Bills,802.71,UPI,Gas connection bill
+2026-01-15,Swiggy food delivery - Biryani bowl,Food & Dining,268.49,Credit Card,Sample discretionary spend
+2026-01-16,Bangalore Metro smart card recharge,Transportation,361.57,UPI,Sample discretionary spend
+2026-01-17,Lunch with colleagues at Dhaba,Food & Dining,1058.36,UPI,Sample discretionary spend
+2026-01-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-01-18,Local Kirana store fruits and vegetables,Groceries,462.13,UPI,Sample discretionary spend
+2026-01-18,Ola auto ride back home,Transportation,97.61,Cash,Sample discretionary spend
+2026-01-18,Apple iPad 10th Gen electronics purchase,Shopping,38900.0,Credit Card,Tech upgrade
+2026-01-19,Dominos Pepperoni Pizza order,Food & Dining,568.68,UPI,Sample discretionary spend
+2026-01-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-01-20,Bangalore Metro smart card recharge,Transportation,200.97,UPI,Sample discretionary spend
+2026-01-20,Blinkit instant grocery delivery,Groceries,312.12,UPI,Sample discretionary spend
+2026-01-20,Swiggy food delivery - Biryani bowl,Food & Dining,413.41,Credit Card,Sample discretionary spend
+2026-01-21,BigBasket monthly kitchen staples,Groceries,3122.01,UPI,Sample discretionary spend
+2026-01-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-01-23,Bangalore Metro smart card recharge,Transportation,313.84,UPI,Sample discretionary spend
+2026-01-23,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,1329.69,UPI,Sample discretionary spend
+2026-01-23,BigBasket monthly kitchen staples,Groceries,2059.44,Credit Card,Sample discretionary spend
+2026-01-24,Steam gaming purchase,Entertainment & Subscriptions,1173.99,Credit Card,Sample discretionary spend
+2026-01-24,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,876.85,UPI,Sample discretionary spend
+2026-01-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-01-25,Myntra formal shirts and casual trousers,Shopping,2857.39,Credit Card,Sample discretionary spend
+2026-01-27,Barbeque Nation team weekend buffet,Food & Dining,1663.17,Credit Card,Sample discretionary spend
+2026-01-29,HPCL Petrol vehicle fuel refuel,Transportation,1526.55,Debit Card,Sample discretionary spend
+2026-01-31,Flipkart festive sale purchase,Shopping,4376.36,UPI,Sample discretionary spend
+2026-02-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-02-02,Zomato dinner delivery,Food & Dining,483.9,Credit Card,Sample discretionary spend
+2026-02-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-02-06,Starbucks Cold Brew coffee,Food & Dining,366.48,UPI,Sample discretionary spend
+2026-02-06,Myntra formal shirts and casual trousers,Shopping,2619.78,Credit Card,Sample discretionary spend
+2026-02-07,Ola auto ride back home,Transportation,146.49,Cash,Sample discretionary spend
+2026-02-07,Dominos Pepperoni Pizza order,Food & Dining,745.44,Debit Card,Sample discretionary spend
+2026-02-08,Bescom Electricity Bill payment,Utilities & Bills,1785.31,UPI,Monthly power bill
+2026-02-11,Steam gaming purchase,Entertainment & Subscriptions,1872.68,Credit Card,Sample discretionary spend
+2026-02-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-02-15,IGL Piped Natural Gas bill,Utilities & Bills,643.47,UPI,Gas connection bill
+2026-02-15,Zara casual jacket purchase,Shopping,3280.79,Credit Card,Sample discretionary spend
+2026-02-17,Zara casual jacket purchase,Shopping,4347.16,Credit Card,Sample discretionary spend
+2026-02-17,Amazon essentials - Ergonomic mouse & pad,Shopping,1556.32,Credit Card,Sample discretionary spend
+2026-02-17,Bangalore Metro smart card recharge,Transportation,298.05,UPI,Sample discretionary spend
+2026-02-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-02-18,Amazon essentials - Ergonomic mouse & pad,Shopping,808.77,Credit Card,Sample discretionary spend
+2026-02-18,Chai Point evening tea and samosa,Food & Dining,138.08,Cash,Sample discretionary spend
+2026-02-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-02-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-02-23,Swiggy food delivery - Biryani bowl,Food & Dining,514.01,Credit Card,Sample discretionary spend
+2026-02-23,Zara casual jacket purchase,Shopping,2753.89,Credit Card,Sample discretionary spend
+2026-02-24,Chai Point evening tea and samosa,Food & Dining,127.33,UPI,Sample discretionary spend
+2026-02-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-02-26,Steam gaming purchase,Entertainment & Subscriptions,499.72,Credit Card,Sample discretionary spend
+2026-02-26,Chai Point evening tea and samosa,Food & Dining,206.76,Cash,Sample discretionary spend
+2026-02-26,Apollo Pharmacy prescription medicine,Health & Fitness,749.93,UPI,Sample discretionary spend
+2026-02-27,Bangalore Metro smart card recharge,Transportation,391.37,UPI,Sample discretionary spend
+2026-02-28,Starbucks Cold Brew coffee,Food & Dining,414.62,UPI,Sample discretionary spend
+2026-03-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-03-03,Zepto quick dairy and bread,Groceries,280.61,UPI,Sample discretionary spend
+2026-03-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-03-05,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,1025.68,UPI,Sample discretionary spend
+2026-03-05,Bangalore Metro smart card recharge,Transportation,365.38,UPI,Sample discretionary spend
+2026-03-08,Bescom Electricity Bill payment,Utilities & Bills,1503.15,UPI,Monthly power bill
+2026-03-08,Dominos Pepperoni Pizza order,Food & Dining,526.08,Debit Card,Sample discretionary spend
+2026-03-08,Chai Point evening tea and samosa,Food & Dining,142.04,UPI,Sample discretionary spend
+2026-03-09,Blinkit instant grocery delivery,Groceries,283.95,UPI,Sample discretionary spend
+2026-03-10,Steam gaming purchase,Entertainment & Subscriptions,576.87,Credit Card,Sample discretionary spend
+2026-03-10,HPCL Petrol vehicle fuel refuel,Transportation,959.72,Credit Card,Sample discretionary spend
+2026-03-10,D-Mart weekend bulk home supplies,Groceries,2712.99,Credit Card,Sample discretionary spend
+2026-03-11,Apollo Pharmacy prescription medicine,Health & Fitness,245.73,Cash,Sample discretionary spend
+2026-03-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-03-14,Dominos Pepperoni Pizza order,Food & Dining,717.89,Debit Card,Sample discretionary spend
+2026-03-14,Emergency car clutch & gearbox overhaul,Transportation,24500.0,Credit Card,Major unexpected car breakdown
+2026-03-15,IGL Piped Natural Gas bill,Utilities & Bills,628.05,UPI,Gas connection bill
+2026-03-16,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,1306.62,UPI,Sample discretionary spend
+2026-03-17,Barbeque Nation team weekend buffet,Food & Dining,2229.9,Credit Card,Sample discretionary spend
+2026-03-17,Steam gaming purchase,Entertainment & Subscriptions,670.32,Credit Card,Sample discretionary spend
+2026-03-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-03-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-03-20,D-Mart weekend bulk home supplies,Groceries,3263.22,Debit Card,Sample discretionary spend
+2026-03-21,Zomato dinner delivery,Food & Dining,933.81,Credit Card,Sample discretionary spend
+2026-03-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-03-23,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,1365.84,UPI,Sample discretionary spend
+2026-03-23,Bangalore Metro smart card recharge,Transportation,273.16,UPI,Sample discretionary spend
+2026-03-23,Barbeque Nation team weekend buffet,Food & Dining,2397.56,Credit Card,Sample discretionary spend
+2026-03-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-03-25,Doctor routine dental checkup,Health & Fitness,1008.99,UPI,Sample discretionary spend
+2026-03-27,Dominos Pepperoni Pizza order,Food & Dining,621.96,Debit Card,Sample discretionary spend
+2026-03-28,Bangalore Metro smart card recharge,Transportation,464.25,UPI,Sample discretionary spend
+2026-03-30,Zomato dinner delivery,Food & Dining,465.83,Credit Card,Sample discretionary spend
+2026-04-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-04-02,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,972.99,UPI,Sample discretionary spend
+2026-04-02,Flipkart festive sale purchase,Shopping,4467.1,UPI,Sample discretionary spend
+2026-04-03,Fastag highway toll auto deduction,Transportation,200.41,UPI,Sample discretionary spend
+2026-04-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-04-06,Steam gaming purchase,Entertainment & Subscriptions,1681.99,Credit Card,Sample discretionary spend
+2026-04-06,Apollo Pharmacy prescription medicine,Health & Fitness,594.75,Cash,Sample discretionary spend
+2026-04-08,Bescom Electricity Bill payment,Utilities & Bills,1381.18,UPI,Monthly power bill
+2026-04-09,Uber cab ride to office,Transportation,448.69,Credit Card,Sample discretionary spend
+2026-04-09,Flipkart festive sale purchase,Shopping,3435.25,UPI,Sample discretionary spend
+2026-04-10,Ola auto ride back home,Transportation,140.62,UPI,Sample discretionary spend
+2026-04-11,Starbucks Cold Brew coffee,Food & Dining,476.29,Credit Card,Sample discretionary spend
+2026-04-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-04-12,Zara casual jacket purchase,Shopping,5159.25,Credit Card,Sample discretionary spend
+2026-04-15,IGL Piped Natural Gas bill,Utilities & Bills,756.45,UPI,Gas connection bill
+2026-04-15,Blinkit instant grocery delivery,Groceries,660.29,UPI,Sample discretionary spend
+2026-04-15,Myntra formal shirts and casual trousers,Shopping,2000.88,Credit Card,Sample discretionary spend
+2026-04-17,Uber cab ride to office,Transportation,368.25,UPI,Sample discretionary spend
+2026-04-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-04-18,Zepto quick dairy and bread,Groceries,435.24,UPI,Sample discretionary spend
+2026-04-18,Apollo Pharmacy prescription medicine,Health & Fitness,764.2,Cash,Sample discretionary spend
+2026-04-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-04-20,Amazon essentials - Ergonomic mouse & pad,Shopping,1565.45,Credit Card,Sample discretionary spend
+2026-04-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-04-22,Starbucks Cold Brew coffee,Food & Dining,365.77,Credit Card,Sample discretionary spend
+2026-04-23,Myntra formal shirts and casual trousers,Shopping,3062.49,Credit Card,Sample discretionary spend
+2026-04-24,Zepto quick dairy and bread,Groceries,440.51,UPI,Sample discretionary spend
+2026-04-24,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,1056.96,UPI,Sample discretionary spend
+2026-04-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-04-25,Dominos Pepperoni Pizza order,Food & Dining,725.0,Debit Card,Sample discretionary spend
+2026-04-29,Zara casual jacket purchase,Shopping,4384.8,Credit Card,Sample discretionary spend
+2026-04-30,Tata 1mg multivitamins & omega 3,Health & Fitness,1013.0,UPI,Sample discretionary spend
+2026-05-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-05-01,Dominos Pepperoni Pizza order,Food & Dining,718.07,UPI,Sample discretionary spend
+2026-05-01,Ola auto ride back home,Transportation,121.11,UPI,Sample discretionary spend
+2026-05-03,Local Kirana store fruits and vegetables,Groceries,403.38,UPI,Sample discretionary spend
+2026-05-03,Local Kirana store fruits and vegetables,Groceries,339.35,UPI,Sample discretionary spend
+2026-05-04,Barbeque Nation team weekend buffet,Food & Dining,1841.81,Credit Card,Sample discretionary spend
+2026-05-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-05-05,Blinkit instant grocery delivery,Groceries,748.58,UPI,Sample discretionary spend
+2026-05-05,Steam gaming purchase,Entertainment & Subscriptions,1699.69,Credit Card,Sample discretionary spend
+2026-05-06,Ola auto ride back home,Transportation,87.0,Cash,Sample discretionary spend
+2026-05-08,Bescom Electricity Bill payment,Utilities & Bills,1265.92,UPI,Monthly power bill
+2026-05-09,BigBasket monthly kitchen staples,Groceries,2178.59,UPI,Sample discretionary spend
+2026-05-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-05-15,IGL Piped Natural Gas bill,Utilities & Bills,673.69,UPI,Gas connection bill
+2026-05-15,Zomato dinner delivery,Food & Dining,860.91,UPI,Sample discretionary spend
+2026-05-17,Flipkart festive sale purchase,Shopping,1827.26,Credit Card,Sample discretionary spend
+2026-05-17,Apollo Pharmacy prescription medicine,Health & Fitness,723.36,UPI,Sample discretionary spend
+2026-05-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-05-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-05-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-05-23,Tata 1mg multivitamins & omega 3,Health & Fitness,808.66,Credit Card,Sample discretionary spend
+2026-05-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-05-25,Zepto quick dairy and bread,Groceries,171.84,UPI,Sample discretionary spend
+2026-05-25,HPCL Petrol vehicle fuel refuel,Transportation,903.72,Credit Card,Sample discretionary spend
+2026-05-26,Starbucks Cold Brew coffee,Food & Dining,510.07,Credit Card,Sample discretionary spend
+2026-05-26,Zepto quick dairy and bread,Groceries,315.16,UPI,Sample discretionary spend
+2026-05-27,Amazon essentials - Ergonomic mouse & pad,Shopping,1650.47,Credit Card,Sample discretionary spend
+2026-05-28,HPCL Petrol vehicle fuel refuel,Transportation,1473.9,Debit Card,Sample discretionary spend
+2026-05-30,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,1202.92,UPI,Sample discretionary spend
+2026-05-30,Tata 1mg multivitamins & omega 3,Health & Fitness,1046.38,UPI,Sample discretionary spend
+2026-05-31,Zomato dinner delivery,Food & Dining,438.18,Credit Card,Sample discretionary spend
+2026-06-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-06-01,Steam gaming purchase,Entertainment & Subscriptions,1197.39,Credit Card,Sample discretionary spend
+2026-06-03,Apollo Pharmacy prescription medicine,Health & Fitness,596.04,Cash,Sample discretionary spend
+2026-06-04,Uber cab ride to office,Transportation,424.31,UPI,Sample discretionary spend
+2026-06-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-06-05,Tata 1mg multivitamins & omega 3,Health & Fitness,1415.85,UPI,Sample discretionary spend
+2026-06-06,Starbucks Cold Brew coffee,Food & Dining,442.58,Credit Card,Sample discretionary spend
+2026-06-08,Bescom Electricity Bill payment,Utilities & Bills,1639.93,UPI,Monthly power bill
+2026-06-09,Lunch with colleagues at Dhaba,Food & Dining,481.37,UPI,Sample discretionary spend
+2026-06-10,Local Kirana store fruits and vegetables,Groceries,415.17,Cash,Sample discretionary spend
+2026-06-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-06-12,Swiggy food delivery - Biryani bowl,Food & Dining,457.97,UPI,Sample discretionary spend
+2026-06-13,Fastag highway toll auto deduction,Transportation,237.39,UPI,Sample discretionary spend
+2026-06-13,Starbucks Cold Brew coffee,Food & Dining,429.68,UPI,Sample discretionary spend
+2026-06-13,Chai Point evening tea and samosa,Food & Dining,163.73,Cash,Sample discretionary spend
+2026-06-14,Chai Point evening tea and samosa,Food & Dining,179.9,UPI,Sample discretionary spend
+2026-06-15,IGL Piped Natural Gas bill,Utilities & Bills,767.13,UPI,Gas connection bill
+2026-06-15,Myntra formal shirts and casual trousers,Shopping,3356.02,Credit Card,Sample discretionary spend
+2026-06-16,Barbeque Nation team weekend buffet,Food & Dining,2155.2,Credit Card,Sample discretionary spend
+2026-06-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-06-19,Zepto quick dairy and bread,Groceries,398.09,UPI,Sample discretionary spend
+2026-06-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-06-21,Chai Point evening tea and samosa,Food & Dining,176.23,Cash,Sample discretionary spend
+2026-06-21,Tanishq 22K Gold jewelry purchase,Shopping,48500.0,Credit Card,Special milestone gift
+2026-06-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-06-22,D-Mart weekend bulk home supplies,Groceries,4747.92,Debit Card,Sample discretionary spend
+2026-06-23,D-Mart weekend bulk home supplies,Groceries,4908.35,Debit Card,Sample discretionary spend
+2026-06-24,Amazon essentials - Ergonomic mouse & pad,Shopping,799.79,Credit Card,Sample discretionary spend
+2026-06-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-06-25,Starbucks Cold Brew coffee,Food & Dining,460.11,Credit Card,Sample discretionary spend
+2026-06-27,Bangalore Metro smart card recharge,Transportation,332.65,UPI,Sample discretionary spend
+2026-06-27,Tata 1mg multivitamins & omega 3,Health & Fitness,854.99,UPI,Sample discretionary spend
+2026-06-27,Ola auto ride back home,Transportation,162.57,Cash,Sample discretionary spend
+2026-06-29,Local Kirana store fruits and vegetables,Groceries,331.09,Cash,Sample discretionary spend
+2026-07-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-07-04,Bangalore Metro smart card recharge,Transportation,302.21,UPI,Sample discretionary spend
+2026-07-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-07-08,Bescom Electricity Bill payment,Utilities & Bills,1382.26,UPI,Monthly power bill
+2026-07-08,Blinkit instant grocery delivery,Groceries,364.66,UPI,Sample discretionary spend
+2026-07-08,Dominos Pepperoni Pizza order,Food & Dining,591.93,Debit Card,Sample discretionary spend
+2026-07-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-07-12,Uber cab ride to office,Transportation,245.88,UPI,Sample discretionary spend
+2026-07-12,Zomato dinner delivery,Food & Dining,399.54,Credit Card,Sample discretionary spend
+2026-07-14,Tata 1mg multivitamins & omega 3,Health & Fitness,883.49,UPI,Sample discretionary spend
+2026-07-15,IGL Piped Natural Gas bill,Utilities & Bills,779.1,UPI,Gas connection bill
+2026-07-15,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,825.06,Credit Card,Sample discretionary spend
+2026-07-17,HPCL Petrol vehicle fuel refuel,Transportation,1151.57,Credit Card,Sample discretionary spend
+2026-07-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-07-19,HPCL Petrol vehicle fuel refuel,Transportation,927.27,Credit Card,Sample discretionary spend
+2026-07-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-07-20,HPCL Petrol vehicle fuel refuel,Transportation,1911.23,Credit Card,Sample discretionary spend
+2026-07-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-07-22,Steam gaming purchase,Entertainment & Subscriptions,1980.6,Credit Card,Sample discretionary spend
+2026-07-24,Bangalore Metro smart card recharge,Transportation,215.07,UPI,Sample discretionary spend
+2026-07-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-07-25,HPCL Petrol vehicle fuel refuel,Transportation,1677.45,Debit Card,Sample discretionary spend
+2026-07-26,Uber cab ride to office,Transportation,301.64,Credit Card,Sample discretionary spend
+2026-07-28,Emergency root canal dental surgery,Health & Fitness,12500.0,UPI,Specialist dental procedure
+2026-07-29,Zepto quick dairy and bread,Groceries,470.46,UPI,Sample discretionary spend
+2026-07-30,Ola auto ride back home,Transportation,136.59,UPI,Sample discretionary spend
+2026-07-31,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,788.03,UPI,Sample discretionary spend
+2026-08-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-08-03,Doctor routine dental checkup,Health & Fitness,1314.24,UPI,Sample discretionary spend
+2026-08-04,Zomato dinner delivery,Food & Dining,949.94,Credit Card,Sample discretionary spend
+2026-08-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-08-05,Bangalore Metro smart card recharge,Transportation,324.73,UPI,Sample discretionary spend
+2026-08-05,Zomato dinner delivery,Food & Dining,709.0,UPI,Sample discretionary spend
+2026-08-07,Zomato dinner delivery,Food & Dining,845.79,UPI,Sample discretionary spend
+2026-08-08,Bescom Electricity Bill payment,Utilities & Bills,1735.66,UPI,Monthly power bill
+2026-08-08,Bangalore Metro smart card recharge,Transportation,469.16,UPI,Sample discretionary spend
+2026-08-09,Barbeque Nation team weekend buffet,Food & Dining,1812.05,Credit Card,Sample discretionary spend
+2026-08-09,Zomato dinner delivery,Food & Dining,606.54,Credit Card,Sample discretionary spend
+2026-08-10,Tata 1mg multivitamins & omega 3,Health & Fitness,992.15,Credit Card,Sample discretionary spend
+2026-08-11,Lunch with colleagues at Dhaba,Food & Dining,654.26,UPI,Sample discretionary spend
+2026-08-11,Fastag highway toll auto deduction,Transportation,209.38,UPI,Sample discretionary spend
+2026-08-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-08-12,Swiggy food delivery - Biryani bowl,Food & Dining,456.65,UPI,Sample discretionary spend
+2026-08-12,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,868.23,UPI,Sample discretionary spend
+2026-08-15,IGL Piped Natural Gas bill,Utilities & Bills,621.75,UPI,Gas connection bill
+2026-08-17,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,636.96,UPI,Sample discretionary spend
+2026-08-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-08-19,Myntra formal shirts and casual trousers,Shopping,3003.65,Credit Card,Sample discretionary spend
+2026-08-19,Myntra formal shirts and casual trousers,Shopping,1544.55,Credit Card,Sample discretionary spend
+2026-08-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-08-20,Uber cab ride to office,Transportation,243.06,Credit Card,Sample discretionary spend
+2026-08-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-08-22,Uber cab ride to office,Transportation,308.78,Credit Card,Sample discretionary spend
+2026-08-23,Dominos Pepperoni Pizza order,Food & Dining,731.83,UPI,Sample discretionary spend
+2026-08-24,Doctor routine dental checkup,Health & Fitness,1179.54,UPI,Sample discretionary spend
+2026-08-24,Myntra formal shirts and casual trousers,Shopping,1495.38,Credit Card,Sample discretionary spend
+2026-08-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-08-27,Ola auto ride back home,Transportation,169.78,Cash,Sample discretionary spend
+2026-08-29,Blinkit instant grocery delivery,Groceries,223.81,UPI,Sample discretionary spend
+2026-08-29,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,1067.25,UPI,Sample discretionary spend
+2026-08-31,Flipkart festive sale purchase,Shopping,3387.9,Credit Card,Sample discretionary spend
+2026-09-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-09-02,Chai Point evening tea and samosa,Food & Dining,133.87,Cash,Sample discretionary spend
+2026-09-03,D-Mart weekend bulk home supplies,Groceries,3719.24,Debit Card,Sample discretionary spend
+2026-09-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-09-07,Myntra formal shirts and casual trousers,Shopping,3297.78,Credit Card,Sample discretionary spend
+2026-09-08,Bescom Electricity Bill payment,Utilities & Bills,1733.49,UPI,Monthly power bill
+2026-09-08,Zara casual jacket purchase,Shopping,3133.21,Credit Card,Sample discretionary spend
+2026-09-08,Goa weekend luxury beach resort vacation,Entertainment & Subscriptions,31500.0,Credit Card,High-cost holiday stay
+2026-09-09,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,750.98,UPI,Sample discretionary spend
+2026-09-10,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,1188.58,UPI,Sample discretionary spend
+2026-09-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-09-12,BookMyShow weekend comedy show pass,Entertainment & Subscriptions,1427.66,UPI,Sample discretionary spend
+2026-09-14,Doctor routine dental checkup,Health & Fitness,908.19,UPI,Sample discretionary spend
+2026-09-14,Apollo Pharmacy prescription medicine,Health & Fitness,386.91,UPI,Sample discretionary spend
+2026-09-15,IGL Piped Natural Gas bill,Utilities & Bills,808.5,UPI,Gas connection bill
+2026-09-15,Amazon essentials - Ergonomic mouse & pad,Shopping,682.36,Credit Card,Sample discretionary spend
+2026-09-15,Lunch with colleagues at Dhaba,Food & Dining,628.91,UPI,Sample discretionary spend
+2026-09-15,PVR Inox IMAX movie tickets for 2,Entertainment & Subscriptions,1048.95,UPI,Sample discretionary spend
+2026-09-16,D-Mart weekend bulk home supplies,Groceries,4191.15,Debit Card,Sample discretionary spend
+2026-09-17,BigBasket monthly kitchen staples,Groceries,3820.01,Credit Card,Sample discretionary spend
+2026-09-17,Flipkart festive sale purchase,Shopping,3381.9,Credit Card,Sample discretionary spend
+2026-09-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-09-19,Flipkart festive sale purchase,Shopping,1841.64,UPI,Sample discretionary spend
+2026-09-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-09-20,Apollo Pharmacy prescription medicine,Health & Fitness,801.77,UPI,Sample discretionary spend
+2026-09-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-09-22,Steam gaming purchase,Entertainment & Subscriptions,1015.13,Credit Card,Sample discretionary spend
+2026-09-22,Steam gaming purchase,Entertainment & Subscriptions,1211.68,Credit Card,Sample discretionary spend
+2026-09-23,Zepto quick dairy and bread,Groceries,203.32,UPI,Sample discretionary spend
+2026-09-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
+2026-09-25,D-Mart weekend bulk home supplies,Groceries,2701.19,Credit Card,Sample discretionary spend
+2026-09-26,Ola auto ride back home,Transportation,93.57,Cash,Sample discretionary spend
+2026-09-27,Tata 1mg multivitamins & omega 3,Health & Fitness,1042.66,Credit Card,Sample discretionary spend
+2026-10-01,House rent transfer,Rent & Housing,22000.0,Net Banking,Monthly flat rent
+2026-10-04,Chai Point evening tea and samosa,Food & Dining,119.73,Cash,Sample discretionary spend
+2026-10-05,HDFC Top 100 SIP Mutual Fund,Investments,10000.0,Net Banking,Monthly equity SIP
+2026-10-05,Blinkit instant grocery delivery,Groceries,629.73,UPI,Sample discretionary spend
+2026-10-05,Local Kirana store fruits and vegetables,Groceries,205.51,Cash,Sample discretionary spend
+2026-10-08,Bescom Electricity Bill payment,Utilities & Bills,1454.15,UPI,Monthly power bill
+2026-10-08,Steam gaming purchase,Entertainment & Subscriptions,1309.08,Credit Card,Sample discretionary spend
+2026-10-08,Starbucks Cold Brew coffee,Food & Dining,410.13,UPI,Sample discretionary spend
+2026-10-08,Fastag highway toll auto deduction,Transportation,376.85,UPI,Sample discretionary spend
+2026-10-09,Starbucks Cold Brew coffee,Food & Dining,445.87,Credit Card,Sample discretionary spend
+2026-10-10,Starbucks Cold Brew coffee,Food & Dining,495.81,UPI,Sample discretionary spend
+2026-10-11,Zara casual jacket purchase,Shopping,6141.41,Credit Card,Sample discretionary spend
+2026-10-11,BigBasket monthly kitchen staples,Groceries,2339.14,Credit Card,Sample discretionary spend
+2026-10-11,Steam gaming purchase,Entertainment & Subscriptions,867.47,Credit Card,Sample discretionary spend
+2026-10-12,Airtel Xstream Fiber WiFi bill,Utilities & Bills,999.0,UPI,200 Mbps broadband
+2026-10-13,Doctor routine dental checkup,Health & Fitness,1431.96,UPI,Sample discretionary spend
+2026-10-15,IGL Piped Natural Gas bill,Utilities & Bills,661.98,UPI,Gas connection bill
+2026-10-15,Doctor routine dental checkup,Health & Fitness,880.19,UPI,Sample discretionary spend
+2026-10-17,D-Mart weekend bulk home supplies,Groceries,4675.7,Debit Card,Sample discretionary spend
+2026-10-18,Netflix Premium 4K plan,Entertainment & Subscriptions,649.0,Credit Card,Monthly OTT stream
+2026-10-20,Spotify Individual Premium,Entertainment & Subscriptions,119.0,Credit Card,Music subscription
+2026-10-22,Jio 5G Unlimited prepaid plan,Utilities & Bills,349.0,UPI,Mobile recharge
+2026-10-25,Cult.fit Gym membership renewal,Health & Fitness,1650.0,Credit Card,Monthly gym access
