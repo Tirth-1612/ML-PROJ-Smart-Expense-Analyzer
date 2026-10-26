@@ -49,113 +49,289 @@ st.set_page_config(
 # Custom CSS for Modern, Premium Financial UI
 st.markdown("""
 <style>
-    /* Global Styles */
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    html, body, [class*="css"] {
-        font-family: 'Inter', -apple-system, sans-serif;
-    }
+    /* Global Typography & Font Import */
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
     
-    /* Header Gradient Banner */
-    .hero-header {
-        background: linear-gradient(135deg, #1E1E2F 0%, #2D2D44 100%);
-        border-radius: 12px;
-        padding: 20px 24px;
-        color: #FFFFFF;
-        margin-bottom: 24px;
-        border-left: 6px solid #4361EE;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
-    .hero-header h1 {
-        color: #FFFFFF;
-        font-size: 24px;
-        font-weight: 700;
-        margin: 0 0 6px 0;
-    }
-    .hero-header p {
-        color: #A0A0B2;
-        font-size: 14px;
-        margin: 0;
+    html, body, [class*="css"], .stApp {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+        letter-spacing: -0.01em;
     }
 
-    /* Metric Cards */
+    /* Streamlit Main Container Tweaks */
+    .block-container {
+        padding-top: 1.8rem !important;
+        padding-bottom: 3rem !important;
+        max-width: 95% !important;
+    }
+
+    /* Header Gradient Hero Banner */
+    .hero-header {
+        background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #312E81 100%);
+        border-radius: 16px;
+        padding: 26px 32px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.3), 0 8px 10px -6px rgba(15, 23, 42, 0.2);
+        position: relative;
+        overflow: hidden;
+    }
+    .hero-header::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        right: -10%;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(99, 102, 241, 0.25) 0%, rgba(99, 102, 241, 0) 70%);
+        pointer-events: none;
+    }
+    .hero-header h1 {
+        color: #F8FAFC !important;
+        font-size: 26px !important;
+        font-weight: 800 !important;
+        margin: 0 0 6px 0 !important;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        letter-spacing: -0.02em;
+    }
+    .hero-header p {
+        color: #94A3B8 !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        margin: 0 !important;
+        max-width: 800px;
+        line-height: 1.5;
+    }
+
+    /* Metric Cards - Modern Glassmorphic Look */
     .metric-card {
-        background: #FFFFFF;
-        border: 1px solid #E5E7EB;
-        border-radius: 10px;
-        padding: 16px 20px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.03);
-        transition: transform 0.15s ease-in-out;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(226, 232, 240, 0.8);
+        border-radius: 14px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 110px;
     }
     .metric-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+        transform: translateY(-3px);
+        box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+        border-color: rgba(99, 102, 241, 0.4);
+    }
+    .metric-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, #4361EE, #4CC9F0);
     }
     .metric-title {
-        font-size: 12px;
+        font-size: 11px;
         text-transform: uppercase;
-        letter-spacing: 0.5px;
-        color: #6B7280;
-        margin-bottom: 4px;
-        font-weight: 600;
+        letter-spacing: 0.8px;
+        color: #64748B;
+        font-weight: 700;
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
     }
     .metric-val {
-        font-size: 22px;
-        font-weight: 700;
-        color: #111827;
-        margin-bottom: 2px;
+        font-size: 23px;
+        font-weight: 800;
+        color: #0F172A;
+        letter-spacing: -0.02em;
+        margin-bottom: 4px;
+        font-feature-settings: "tnum" 1;
     }
     .metric-sub {
         font-size: 12px;
-        color: #9CA3AF;
+        color: #64748B;
+        font-weight: 500;
     }
 
-    /* Recommendation Cards */
+    /* Recommendation & Persona Cards */
     .rec-card {
-        border-radius: 10px;
-        padding: 16px 20px;
-        margin-bottom: 14px;
+        border-radius: 14px;
+        padding: 18px 22px;
+        margin-bottom: 16px;
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        position: relative;
         border-left: 5px solid #4361EE;
-        background: #F9FAFB;
-        border: 1px solid #E5E7EB;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .rec-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.06);
     }
     .rec-card.warning {
-        border-left-color: #F72585;
-        background: #FFF5F7;
+        border-left-color: #F43F5E;
+        background: linear-gradient(135deg, #FFF1F2 0%, #FFFFFF 100%);
     }
     .rec-card.opportunity {
-        border-left-color: #4CC9F0;
-        background: #F0FBFF;
+        border-left-color: #0284C7;
+        background: linear-gradient(135deg, #F0F9FF 0%, #FFFFFF 100%);
     }
     .rec-card.positive {
-        border-left-color: #06D6A0;
-        background: #F0FDF4;
+        border-left-color: #10B981;
+        background: linear-gradient(135deg, #ECFDF5 0%, #FFFFFF 100%);
     }
     .rec-title {
-        font-size: 15px;
-        font-weight: 600;
-        color: #111827;
-        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #0F172A;
+        margin-bottom: 6px;
     }
     .rec-impact {
-        display: inline-block;
-        padding: 2px 8px;
-        border-radius: 12px;
-        font-size: 11px;
+        display: inline-flex;
+        align-items: center;
+        padding: 3px 10px;
+        border-radius: 20px;
+        font-size: 12px;
         font-weight: 600;
         background: #EEF2FF;
         color: #4361EE;
-        margin-bottom: 6px;
+        margin-bottom: 8px;
+    }
+    .rec-card.warning .rec-impact {
+        background: #FFE4E6;
+        color: #E11D48;
+    }
+    .rec-card.positive .rec-impact {
+        background: #D1FAE5;
+        color: #059669;
     }
 
-    /* Badge */
+    /* Badges */
     .sample-badge {
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
         background-color: #FEF3C7;
         color: #92400E;
         padding: 4px 10px;
-        border-radius: 6px;
+        border-radius: 8px;
         font-size: 12px;
         font-weight: 600;
+        border: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .live-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background-color: #DCFCE7;
+        color: #166534;
+        padding: 3px 8px;
+        border-radius: 20px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .live-dot {
+        width: 7px;
+        height: 7px;
+        background-color: #22C55E;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.2);
+    }
+
+    /* Sidebar Modern Premium Styling */
+    section[data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%) !important;
+        border-right: 1px solid #E2E8F0 !important;
+    }
+    section[data-testid="stSidebar"] .block-container {
+        padding: 1.5rem 1rem !important;
+    }
+    /* Modern Radio Navigation Menu */
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] > div {
+        gap: 6px;
+    }
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] label {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 10px;
+        padding: 9px 14px !important;
+        margin-bottom: 2px;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] label:hover {
+        background: #F8FAFC;
+        border-color: #CBD5E1;
+        transform: translateX(3px);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+    }
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] label[data-checked="true"],
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] label:has(input:checked) {
+        background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%) !important;
+        border-color: #6366F1 !important;
+        box-shadow: 0 2px 6px rgba(99, 102, 241, 0.15) !important;
+    }
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] label[data-checked="true"] p,
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] label:has(input:checked) p {
+        color: #3730A3 !important;
+        font-weight: 700 !important;
+    }
+    section[data-testid="stSidebar"] div[data-testid="stRadio"] label p {
+        font-size: 13.5px !important;
+        font-weight: 600 !important;
+        color: #334155 !important;
+    }
+    section[data-testid="stSidebar"] hr {
+        margin: 1.2rem 0 !important;
+        border-color: #E2E8F0 !important;
+    }
+
+    /* Modern Tabs Styling */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+        background-color: #F1F5F9;
+        padding: 4px;
+        border-radius: 12px;
+        border: 1px solid #E2E8F0;
+    }
+    .stTabs [data-baseweb="tab"] {
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        padding: 8px 16px !important;
+        color: #64748B !important;
+        border: none !important;
+        background-color: transparent !important;
+        transition: all 0.2s ease;
+    }
+    .stTabs [aria-selected="true"] {
+        background-color: #FFFFFF !important;
+        color: #4361EE !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    }
+
+    /* Buttons Modernization */
+    .stButton > button {
+        border-radius: 10px !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        transition: all 0.2s ease !important;
+    }
+    .stButton > button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -176,9 +352,28 @@ if "categorizer" not in st.session_state:
 
 
 # Sidebar Navigation & Global Controls
-st.sidebar.markdown("## 💰 **Smart Expense AI**")
-st.sidebar.markdown("*Intelligent ML Personal Finance*")
-st.sidebar.divider()
+st.sidebar.markdown("""
+<div style="padding: 12px 6px 8px 6px;">
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
+        <div style="width: 38px; height: 38px; border-radius: 10px; background: linear-gradient(135deg, #4361EE 0%, #3F37C9 100%); display: flex; align-items: center; justify-content: center; font-size: 20px; box-shadow: 0 4px 10px rgba(67, 97, 238, 0.35);">
+            💰
+        </div>
+        <div>
+            <div style="font-size: 18px; font-weight: 800; color: #0F172A; letter-spacing: -0.02em; line-height: 1.2;">Smart Expense <span style="background: linear-gradient(135deg, #4361EE, #7209B7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AI</span></div>
+            <div style="display: flex; align-items: center; gap: 5px; margin-top: 2px;">
+                <span class="live-dot"></span>
+                <span style="font-size: 11px; font-weight: 600; color: #166534; text-transform: uppercase; letter-spacing: 0.5px;">Engine Active</span>
+            </div>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+st.sidebar.markdown("""
+<div style="font-size: 10.5px; font-weight: 800; text-transform: uppercase; color: #94A3B8; letter-spacing: 1px; margin: 12px 6px 6px 6px;">
+    MAIN NAVIGATION
+</div>
+""", unsafe_allow_html=True)
 
 nav_choice = st.sidebar.radio(
     "Navigation Menu",
@@ -191,38 +386,71 @@ nav_choice = st.sidebar.radio(
         "💡 Saving Recommendations",
         "🎓 Model Evaluation & ML Guide"
     ],
-    index=0
+    index=0,
+    label_visibility="collapsed"
 )
 
-st.sidebar.divider()
+st.sidebar.markdown("""
+<div style="font-size: 10.5px; font-weight: 800; text-transform: uppercase; color: #94A3B8; letter-spacing: 1px; margin: 20px 6px 6px 6px;">
+    DATASET & DATABASE
+</div>
+""", unsafe_allow_html=True)
 
 # Dataset Status in Sidebar
 df_current = get_all_expenses()
 sample_count = int(df_current["is_sample"].sum()) if not df_current.empty and "is_sample" in df_current.columns else 0
 user_count = len(df_current) - sample_count
+total_records = len(df_current)
 
-st.sidebar.markdown("### 📁 Dataset Info")
-st.sidebar.write(f"**Total Records:** `{len(df_current)}`")
-if sample_count > 0:
-    st.sidebar.markdown(f"<span class='sample-badge'>📌 {sample_count} Sample Records Active</span>", unsafe_allow_html=True)
-if user_count > 0:
-    st.sidebar.write(f"**User Records:** `{user_count}`")
+st.sidebar.markdown(f"""
+<div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.03);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+        <span style="font-size: 12px; font-weight: 600; color: #64748B;">Total Transactions</span>
+        <span style="font-size: 18px; font-weight: 800; color: #0F172A; font-feature-settings: 'tnum' 1;">{total_records:,}</span>
+    </div>
+    <div style="display: flex; gap: 8px;">
+        <div style="flex: 1; background: #EEF2FF; border-radius: 8px; padding: 6px 8px; text-align: center;">
+            <div style="font-size: 10px; font-weight: 700; color: #4361EE; text-transform: uppercase; letter-spacing: 0.5px;">Sample</div>
+            <div style="font-size: 13px; font-weight: 700; color: #1E1B4B;">{sample_count}</div>
+        </div>
+        <div style="flex: 1; background: #ECFDF5; border-radius: 8px; padding: 6px 8px; text-align: center;">
+            <div style="font-size: 10px; font-weight: 700; color: #059669; text-transform: uppercase; letter-spacing: 0.5px;">Custom</div>
+            <div style="font-size: 13px; font-weight: 700; color: #064E3B;">{user_count}</div>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
-st.sidebar.divider()
+st.sidebar.markdown("""
+<div style="font-size: 10.5px; font-weight: 800; text-transform: uppercase; color: #94A3B8; letter-spacing: 1px; margin: 14px 6px 6px 6px;">
+    QUICK ACTIONS
+</div>
+""", unsafe_allow_html=True)
 
 # Quick Reset / Reload Sample Data
-if st.sidebar.button("🔄 Reset to Default Sample Data", use_container_width=True):
-    if os.path.exists(sample_csv_path):
+col_sb1, col_sb2 = st.sidebar.columns(2)
+with col_sb1:
+    if st.button("🔄 Reset Data", use_container_width=True, help="Reload default 12-month sample dataset"):
+        if os.path.exists(sample_csv_path):
+            clear_all_expenses()
+            load_sample_data(sample_csv_path, reset=True)
+            st.session_state.categorizer.train_ml_fallback(get_all_expenses())
+            st.sidebar.success("Reset successfully!")
+            st.rerun()
+
+with col_sb2:
+    if st.button("🗑️ Clear All", use_container_width=True, help="Wipe database to start completely fresh"):
         clear_all_expenses()
-        load_sample_data(sample_csv_path, reset=True)
-        st.session_state.categorizer.train_ml_fallback(get_all_expenses())
-        st.sidebar.success("Reset to sample data successfully!")
+        st.sidebar.warning("Cleared!")
         st.rerun()
 
-if st.sidebar.button("🗑️ Clear All Transactions", use_container_width=True):
-    clear_all_expenses()
-    st.sidebar.warning("All transactions deleted.")
-    st.rerun()
+st.sidebar.markdown("""
+<div style="margin-top: 24px; padding: 10px 6px; text-align: center; border-top: 1px solid #E2E8F0;">
+    <div style="font-size: 11px; color: #94A3B8; font-weight: 500;">
+        Powered by Scikit-Learn & Streamlit
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 
 # ==============================================================================
@@ -281,7 +509,7 @@ if nav_choice == "📊 Dashboard":
         with kpi1:
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-title">Total Spending</div>
+                <div class="metric-title"><span>💳</span> Total Spending</div>
                 <div class="metric-val">₹{total_exp:,.2f}</div>
                 <div class="metric-sub">{total_txns} total transactions</div>
             </div>
@@ -289,25 +517,25 @@ if nav_choice == "📊 Dashboard":
         with kpi2:
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-title">Recent Month ({latest_month})</div>
-                <div class="metric-val">₹{this_month_exp:,.2f}</div>
+                <div class="metric-title"><span>📅</span> Recent Month ({latest_month})</div>
+                <div class="metric-val" style="color: #4361EE;">₹{this_month_exp:,.2f}</div>
                 <div class="metric-sub">{len(this_month_df)} transactions</div>
             </div>
             """, unsafe_allow_html=True)
         with kpi3:
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-title">Avg Transaction</div>
+                <div class="metric-title"><span>📊</span> Avg Ticket Size</div>
                 <div class="metric-val">₹{avg_txn:,.2f}</div>
-                <div class="metric-sub">Mean ticket size</div>
+                <div class="metric-sub">Mean spend / txn</div>
             </div>
             """, unsafe_allow_html=True)
         with kpi4:
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-title">Top Category</div>
-                <div class="metric-val" style="font-size: 18px; word-break: break-word;">{top_cat}</div>
-                <div class="metric-sub">₹{top_cat_amt:,.2f} spent</div>
+                <div class="metric-title"><span>🏷️</span> Top Category</div>
+                <div class="metric-val" style="font-size: 19px; word-break: break-word; color: #7209B7;">{top_cat}</div>
+                <div class="metric-sub">₹{top_cat_amt:,.2f} cumulative</div>
             </div>
             """, unsafe_allow_html=True)
         with kpi5:
@@ -315,7 +543,7 @@ if nav_choice == "📊 Dashboard":
             avg_monthly = total_exp / distinct_months
             st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-title">Monthly Average</div>
+                <div class="metric-title"><span>⚡</span> Monthly Average</div>
                 <div class="metric-val">₹{avg_monthly:,.2f}</div>
                 <div class="metric-sub">Across {distinct_months} month(s)</div>
             </div>
