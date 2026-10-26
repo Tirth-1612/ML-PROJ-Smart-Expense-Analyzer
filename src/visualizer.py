@@ -16,11 +16,17 @@ PALETTE = [
 ]
 
 LAYOUT_DEFAULTS = dict(
-    font=dict(family="Inter, -apple-system, sans-serif", size=12),
+    font=dict(family="Plus Jakarta Sans, -apple-system, sans-serif", size=12, color="#334155"),
     plot_bgcolor="rgba(0,0,0,0)",
     paper_bgcolor="rgba(0,0,0,0)",
-    margin=dict(l=20, r=20, t=40, b=20),
-    hoverlabel=dict(font_size=12, font_family="Inter, sans-serif")
+    margin=dict(l=24, r=24, t=48, b=24),
+    hoverlabel=dict(
+        bgcolor="#0F172A",
+        font_size=12,
+        font_family="Plus Jakarta Sans, sans-serif",
+        font_color="#FFFFFF",
+        bordercolor="rgba(255,255,255,0.15)"
+    )
 )
 
 
@@ -35,7 +41,11 @@ def plot_monthly_trend(df: pd.DataFrame) -> go.Figure:
     fig.add_trace(go.Bar(
         x=monthly["month_str"],
         y=monthly["amount"],
-        marker_color="#4361EE",
+        marker=dict(
+            color="#4361EE",
+            opacity=0.88,
+            line=dict(color="#3B49DF", width=1)
+        ),
         name="Monthly Spend",
         hovertemplate="<b>%{x}</b><br>Total: ₹%{y:,.2f}<extra></extra>"
     ))
@@ -45,8 +55,8 @@ def plot_monthly_trend(df: pd.DataFrame) -> go.Figure:
         x=monthly["month_str"],
         y=monthly["amount"],
         mode="lines+markers",
-        line=dict(color="#F72585", width=2.5, shape="spline"),
-        marker=dict(size=6, color="#F72585"),
+        line=dict(color="#F43F5E", width=3, shape="spline"),
+        marker=dict(size=7, color="#F43F5E", line=dict(color="#FFFFFF", width=1.5)),
         name="Trend"
     ))
 
@@ -55,7 +65,7 @@ def plot_monthly_trend(df: pd.DataFrame) -> go.Figure:
         title="<b>Monthly Spending Trend</b>",
         xaxis_title="Month",
         yaxis_title="Total Amount (₹)",
-        yaxis=dict(gridcolor="rgba(128,128,128,0.15)"),
+        yaxis=dict(gridcolor="rgba(226, 232, 240, 0.8)"),
         xaxis=dict(showgrid=False),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
     )
