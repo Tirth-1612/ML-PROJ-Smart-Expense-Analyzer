@@ -102,7 +102,7 @@ ML-PROJ-Smart-Expense-Analyser/
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Tirth-1612/ML-PROJ-Smart-Expense-Analyzer
-cd NBA-Accreditation-Improvement
+cd ML_PROJ_Smart_Expense_Analyser
 ```
 
 ### 2. Set up virtual environment (recommended)
@@ -135,5 +135,5 @@ All 9 unit tests validate database CRUD, CSV parsing, categorization rules, K-Me
 
 ## ⚠️ Limitations & Future Work
 - **Time-Series Length:** Meaningful chronological forecasting requires at least 3-6 months of historical transactions. For new accounts, the baseline Linear Regression gracefully activates until sufficient data accumulates.
-- **Categorization Scope:** Keyword rules cover common Indian and international merchants; uncommon names default to *Miscellaneous* until trained by the user's transaction history.
+- **Categorization Scope:** Keyword rules cover common Indian and international merchants; uncommon names default to *Miscellaneous* until trained by the user's transaction histoy.
 - **Future Enhancements:** Bank statement PDF parsing, receipt OCR, and deep learning sequence models (LSTM / Prophet) for multi-year seasonal analysis.
