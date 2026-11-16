@@ -72,7 +72,7 @@ All amounts and visualizations default to **Indian Rupees (₹)**.
 ## 📂 Project Architecture
 
 ```
-NBA-Accreditation-Improvement/
+ML-PROJ-Smart-Expense-Analyser/
 ├── app.py                      # Main Streamlit web application
 ├── requirements.txt            # Python dependencies
 ├── data/
@@ -101,7 +101,7 @@ NBA-Accreditation-Improvement/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/dhruvlad1/NBA-Accreditation-Improvement.git
+git clone https://github.com/Tirth-1612/ML-PROJ-Smart-Expense-Analyzer
 cd NBA-Accreditation-Improvement
 ```
 
